@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-)o*j!+zh*2vg6(k18da@(*2lod8bu49@4cywkguxpqit1--2f!
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['token-tofv.onrender.com', 'www.token-tofv.onrender.com']
 
 
 # Application definition
@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'rest_framework.authtoken',
-    
+
 ]
 
 MIDDLEWARE = [
